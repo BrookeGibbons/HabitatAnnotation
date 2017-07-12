@@ -51,6 +51,21 @@ library("readr") # allows you to save final data as text file
 # ID <- "2010-01_Capes.sanctuaries_stereoBRUVs" # habitat classes 12/07/17
 # ID <- "2010-06_Capes.sanctuaries_stereoBRUVs" # habitat classes 12/07/17 - All Unknown or NAs
 
+## Ningaloo Marine Park WAMSI_Fitzpatrick ----
+# Project <- "Ningaloo Marine Park WAMSI_Fitzpatrick"
+
+# Campaigns ----
+# ID <- "2006-07_Ningaloo.sanctuaries_stereoBRUVs" # habitat classes 12/07/17
+# ID <- "2007-07_Ningaloo.sanctuaries_stereoBRUVs" # habitat classes 12/07/17 - A lot of Unknown + NAs
+
+## Ningaloo Marine Park_DPaW ----
+ Project <- "Ningaloo Marine Park_DPaW"
+
+# Campaigns ----
+ ID <- "2014-10_Ningaloo.shallow.sanctuaries_stereoBRUVs"
+# ID <- "2015-08_Ningaloo.deep.sanctuaries_stereoBRUVs"
+# ID <- "2015-08_Ningaloo.shallow.sanctuaries_stereoBRUVs"
+
 # STEP 2 - Set Custodian ----
 custodian <- "Tim Langlois"
 # custodian <- "Euan Harvey"
