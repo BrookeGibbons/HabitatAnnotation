@@ -49,17 +49,18 @@ rm(list=ls())
 # ID <- "2009-10_Barrow.Island.Gorgon_stereoBRUVs" # not analysed
 # ID <- "2010-10_Barrow.Island.Gorgon_stereoBRUVs" # not analysed
 
+
 ## Cape Howe Marine Park_Moore ----
 #Project<-"Cape Howe Marine Park_Moore"
 
 # Campaigns ----
-#ID <- 2006-11_Cape.Howe.MNP_stereoBRUVs # do not have TMObs
+#ID <- "2006-11_Cape.Howe.MNP_stereoBRUVs" # do not have TMObs
 
 ## Dampier Archipelago Pluto ----
 #Project<-"Dampier Archipelago Pluto"
 
 # Campaigns ----
-# ID <- 2008-08_Dampier.Pluto_stereoBRUVs # not analysed
+# ID <- "2008-08_Dampier.Pluto_stereoBRUVs" # habitat classes 12/07/17
 
 ## Department of Fisheries deepwater transects ----
 # Project<-"Department of Fisheries deepwater transects"
@@ -108,7 +109,7 @@ rm(list=ls())
 # ID <- "2013-06_Rottnest.MF_stereoBRUVs"
 
 ## Rottnest Island Marine Reserve long-term monitoring ----
-# Project <- Rottnest Island Marine Reserve long-term monitoring
+# Project <- "Rottnest Island Marine Reserve long-term monitoring"
 
 # Campaigns ----
 # ID <- "2009-07_Rottnest.sanctuaries_stereoBRUVs"
@@ -148,7 +149,7 @@ rm(list=ls())
 # Project <- "Wheatstone Project Offset DPaW"
 
 # Campaigns ----
-# ID <- "2016-01_Mackeral.Islands.Shallow_SPC"
+# ID <- "2016-01_Mackerel.Islands.Shallow_SPC"
 
 
 ## Houtman Abrolhos Reef Observation Areas long-term monitoring ----
