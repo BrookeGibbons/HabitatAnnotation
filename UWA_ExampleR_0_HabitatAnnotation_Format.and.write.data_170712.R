@@ -600,3 +600,19 @@ head(habitat.point.score,2)
 #   write_tsv(paste(ID,"Habitat.percent.cover.and.relief.txt",sep="_"))
 
 # head(habitat.percent.cover.and.relief,2)
+
+
+##### HABITAT CLASSES (FOR OLD CAMPAIGNS) ----
+setwd(upload)
+dir()
+
+data<-paste(ID,"Metadata.txt",sep="_")
+
+habitat.classes<-read.delim(data,header=T,stringsAsFactors=FALSE)%>%
+  select(c(Sample,BENTHOS,DETAIL.BENTHOS,RELIEF,DETIAL.RELIEF))%>%
+  rename(Detail.Relief=DETIAL.RELIEF)%>%
+  rename(Relief=RELIEF)%>%
+  rename(Detail.Benthos=DETAIL.BENTHOS)%>%
+  rename(Benthos=BENTHOS)%>%
+  write_tsv(paste(ID,"Habitat.classes.txt",sep="_"))
+head(habitat.classes)
