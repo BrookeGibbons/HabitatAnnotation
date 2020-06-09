@@ -16,7 +16,7 @@ Habitat annotation of benthic imagery from horizontally facing cameras from bait
 [Example data and R scripts](#r-example)<br></br>
 [Bibliography](#bibliography)
 
-#<a name="introduction"></a>Introduction
+# <a name="introduction"></a>Introduction
 
 We have developed a simple approach to characterise the composition and complexity of habitats from horizontally facing benthic imagery, adapting existing standardised schema for benthic composition (<a href="https://github.com/TimLanglois/HabitatAnnotation/blob/master/visual_guide_CATAMI.pdf">CATAMI classification scheme</a><sup>1</sup>) and benthic complexity<sup>2</sup>, with the addition of a class to quantify the % of benthos versus open water within the horizontally facing image. 
 
@@ -43,7 +43,7 @@ Protocol: each of the cells is annotated for dominant Benthic Composition, Field
 <HR>
 </HR>
 
-#<a name="method"></a>Method
+# <a name="method"></a>Method
 
 The annotation schema is made up of nested Benthic Composition classes taken from the CATAMI schema and a Field of View and Relief class that are useful for characterising horizontally facing imagery.
 BROAD>MORPHOLOGY>TYPE/FieldOfView/Relief
@@ -89,7 +89,7 @@ The Relief class uses a 0-5 quantification of relief <sup>2</sup> and includes a
 <HR>
 </HR>
 
-#<a name="recommended-approaches"></a>Recommended approaches
+# <a name="recommended-approaches"></a>Recommended approaches
 
 <b>Standard (rapid) assessment</b> of Benthic Composition, Field of View and Relief we recommend using ONLY the:
 BROAD/FieldOfView/Relief classes. 
@@ -104,7 +104,7 @@ An experienced analyst would be able to annotate this schema to over 120 images 
 <HR>
 </HR>
 
-#<a name="transectmeasure-example"></a>TransectMeasure example
+# <a name="transectmeasure-example"></a>TransectMeasure example
 
 The annotation schema has been applied using the TransectMeasure software from www.seagis.com.au and the 
 <a href="https://github.com/TimLanglois/HabitatAnnotation/blob/master/TM%20schema_BROAD%20ONLY.txt"> Rapid assessment attribute text file</a> and the 
@@ -115,7 +115,7 @@ To download these text files so that they can be uploaded to TM, in GitHub selec
 
 For more information please see the  <a href="https://github.com/TimLanglois/HabitatAnnotation/blob/master/StandardOperatingProcedure_TransectMeasure.md">Standard Operating Procedure for TransectMeasure</a>. 
 
-#<a name="r-example"></a>Example data and R scripts
+# <a name="r-example"></a>Example data and R scripts
 
 Also provided is an <a href="https://github.com/TimLanglois/Habitat-annotation-of-forward-facing-benthic-imagery/blob/master/RWorkflow.md"> R workflow example, including script, example habitat annotation data and outputs</a>. 
 
@@ -124,7 +124,7 @@ Also provided is an <a href="https://github.com/TimLanglois/Habitat-annotation-o
 <HR>
 </HR>
 
-#<a name="bibliography"></a>Bibliography
+# <a name="bibliography"></a>Bibliography
 
 1. Hill, N., Althaus, F., Rees, T., et al., 2014. CATAMI Classification Scheme for Scoring Marine Biota and Substrata in Underwater Imagery Version 1.4: December 2014
 <br></br>
